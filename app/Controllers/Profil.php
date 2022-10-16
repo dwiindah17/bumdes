@@ -11,13 +11,13 @@ class Profil extends BaseController
         ];
         return view('user/profil', $data);
     }
-    public function struktur()
-    {
-        $data = [
-            'title' => 'Struktur Bumdesa',
-        ];
-        return view('user/profil/struktur', $data);
-    }
+    // public function struktur()
+    // {
+    //     $data = [
+    //         'title' => 'Struktur Bumdesa',
+    //     ];
+    //     return view('user/profil/struktur', $data);
+    // }
     public function pengurus()
     {
         $data = [
@@ -46,4 +46,12 @@ class Profil extends BaseController
         ];
         return view('user/profil/regulasi', $data);
     }
+    // public function struktur()
+    // {
+    //     $data = [
+    //         'title' => 'Struktur Kepengurusan Bumdesa',
+    //     ];
+    //     return view('struktur/index', $data);
+    // }
 }
+

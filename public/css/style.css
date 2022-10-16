@@ -10392,7 +10392,53 @@ textarea.is-invalid.tt-hint {
   overflow: hidden;
   border-top: 1px solid #2c2e33; }
 
+/* indah */
+/* multilevel */
+.dropdown2{
+  position: absolute;
+  left: 80%;
+  width: 140%;
+  top: 40%;
+  flex-wrap: wrap;
+  transition: 0.3s;
+  visibility: hidden;
+}
+
+.dropdown-item li:hover .dropdown2{
+  left: 100%;
+  visibility: visible;
+}
+/* .dropdown3{
+  position: absolute;
+  left: 80%;
+  width: 140%;
+  top: 48%;
+  flex-wrap: wrap;
+  transition: 0.3s;
+  visibility: hidden;
+}
+.dropdown2 li:hover .dropdown3{
+  left: 100%;
+  visibility: visible;
+} */
+ul li:hover .dropdown2{
+  visibility: visible;
+  top: 100%;
+}
+
+ul li:hover .dropdown-item{
+  visibility: visible;
+  top: 100%;
+}
+
+
+
+
+/* end */
+
+
 .dropdown-item {
+  /* visibility: hidden; */
   display: block;
   width: 100%;
   padding: 0.25rem 1rem;
