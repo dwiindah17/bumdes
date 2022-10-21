@@ -1,4 +1,4 @@
-<nav class="navbar p-0 fixed-top d-flex flex-row">
+<nav class="navbar p-0 fixed-top d-flex flex-row" id="navbar2">
   <div class="navbar-brand-wrapper d-flex d-lg-none align-items-center justify-content-center">
     <a class="navbar-brand brand-logo-mini" href="../../index.html"><img src="/images/logo-mini.svg" alt="logo" /></a>
   </div>
@@ -137,8 +137,9 @@
         </div>
       </li>
     </ul>
-    <button class="navbar-toggler navbar-toggler-right d-lg-none align-self-center" type="button" data-toggle="offcanvas">
-      <span class="mdi mdi-format-line-spacing"></span>
-    </button>
+    <div class="hamburger">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
   </div>
 </nav>

@@ -29,13 +29,14 @@
 
         <!-- partial:partials/_sidebar.html -->
         
+
         <!-- partial -->
         <div class="container-fluid page-body-wrapper">
             <!-- partial:partials/_navbar.html -->
             <?= $this->include('template/nav'); ?>
             <!-- partial -->
             <div class="main-panel">
-            
+
                 <div class="content-wrapper">
 
                     <?= $this->renderSection('page-content'); ?>
@@ -55,6 +56,10 @@
         </div>
         <!-- page-body-wrapper ends -->
     </div>
+    <!-- hamburger -->
+    <script src="<?= base_url(); ?>/js/script.js"></script>
+
+
     <!-- container-scroller -->
     <!-- plugins:js -->
     <script src="<?= base_url(); ?>/vendors/js/vendor.bundle.base.js"></script>
